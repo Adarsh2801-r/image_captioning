@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Caption Generation</title>
+<style type="text/css">
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+   width: 100%;
+   font-size: 18px;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-flex;
+   border: 1px solid;
+   border-color: #edc7ff;
+   border-radius: 10px;
+   background: #fcf5ff;
+}
+label{
+   font-size: 15px;
+}
+input[type=text]:focus, input[type=password]:focus {
+   background-color: #f6f0ff;
+   border-color: green;
+}
+textarea{
+	width: 100%;
+   font-size: 18px;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-flex;
+   border: 1px solid;
+   border-color: #edc7ff;
+   border-radius: 10px;
+   background: #fcf5ff;
+}
+textarea: focus{
+	background-color: #f6f0ff;
+    border-color: green;
+}
+hr {
+   border: 1px solid #b603fc;
+   margin-bottom: 25px;
+}
+button {
+   font-size: 18px;
+   font-weight: bold;
+   background-color: #5402b3;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 30%;
+   opacity: 0.9;
+   border-radius: 30px;
+   margin-left: 35%;
+}
+button:hover {
+   opacity:1;
+}
+.formContainer {
+   padding: 16px;
+   border: 1px solid;
+   border-color: black;
+   width: 70%;
+   margin-left: 15%;
+   margin-top: 5%;
+}
+.formContainer p{
+   font-size: 28px;
+}
+.formContainer.error {
+  color: #ff0000;
+}
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+  $("form[name='registration']").validate({
+    rules: {
+      name: "required",
+      email: {
+        required: true,
+        email: true
+      },
+      password: {
+        required: true,
+        minlength: 5
+      }
+    },
+    messages: {
+      name: "Please enter name",
+      password: {
+        required: "Please provide a password",
+        minlength: "Your password must be at least 5 characters long"
+      },
+      email: "Please enter a valid email address"
+    },
+
+  });
+});
+</script>
+
+</head>
+<body style="background: #3a0e6d;">
+<form>
+<div class="formContainer" style="background-image: linear-gradient(to bottom right,#f0dbff, #fcf7ff);">
+ <form action="#" name="registration">
+<h1>Image Description generation</h1>
+<hr>
+<input type="file" name="fileToUpload" id="fileToUpload">
+<br>
+<br>
+<button type="submit" class="signup">Generate Captions</button>
+</div>
+</form>
+</div>
+</form>
+</body>
+</html>
