@@ -13,8 +13,8 @@ Workflow followed:
 2. Performed Data Augmentation
 3. Word/Sentence Embedding
 4. Combined Model
-4.1 CNN for encoding-ResNet
-4.2 Transformers for decoder network
-4.3 Combined Loss and Fine Tuning
+> 4.1 CNN for encoding-ResNet <br>
+> 4.2 Transformers for decoder network <br>
+> 4.3 Combined Loss and Fine Tuning <br>
 5. Validation of Description
 6. Generalization/Decoupling of Code
