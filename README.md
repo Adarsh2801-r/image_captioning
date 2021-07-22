@@ -5,6 +5,8 @@ Dataset-https://drive.google.com/drive/u/0/folders/1ysngnEgkyVu1AHaDk34-15YuavSV
 
 **About the project** <br>
 We created a sentence-based image description generator; this project comes under two flourishing domains of deep learning image recognition and natural language processing. First, we generated index-based encoding of the captions present in the dataset our model uses these text encodings to train on. We then used the pre-trained *ResNet* models to extract image embeddings which we used as input to *transformers’* decoder layer, which uses these image embeddings to generate sentences that describe the image. <br>
+<br>
+<br>
 *ResNet Architecture*
 <br>
 <img src="https://d2l.ai/_images/resnet-block.svg"
