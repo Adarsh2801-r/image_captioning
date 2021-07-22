@@ -5,23 +5,34 @@ Dataset-https://drive.google.com/drive/u/0/folders/1ysngnEgkyVu1AHaDk34-15YuavSV
 
 **About the project** <br>
 We created a sentence-based image description generator; this project comes under two flourishing domains of deep learning image recognition and natural language processing. First, we generated index-based encoding of the captions present in the dataset our model uses these text encodings to train on. We then used the pre-trained *ResNet* models to extract image embeddings which we used as input to *transformers’* decoder layer, which uses these image embeddings to generate sentences that describe the image. <br>
+<img src="https://d2l.ai/_images/resnet-block.svg"
+     alt="ResNet Architecture "
+     width="300" height="200"
+     style="float: left; margin-right: 10px;" />
+     <br>
+*ResNet Architecture*
+<br>
+<img src="https://www.researchgate.net/profile/Paolo-Napoletano/publication/322476121/figure/tbl1/AS:668726449946625@1536448218498/ResNet-18-Architecture.png"
+     alt="ResNet18"
+     width="300" height="200"
+     style="float: left; margin-right: 10px;" />
+     <br>
+*ResNet-18* 
+<br>
+<img src="https://iq.opengenus.org/content/images/2020/03/Screenshot-from-2020-03-20-15-49-54.png"
+     alt="ResNet50"
+     width="300" height="200"
+     style="float: left; margin-right: 10px;" />
+     <br>
+*ResNet-50* 
+<br>
 <img src="https://miro.medium.com/max/1200/1*DSRCXsde9_8dvbxq5ktUnw.png"
      alt="Transformer Architecture "
      width="300" height="200"
      style="float: left; margin-right: 10px;" />
-**Transformer Architecture** 
-<img src="https://d2l.ai/_images/resnet-block.svg"
-     alt="ResNet Architecture "
-     style="float: left; margin-right: 10px;" />
-**ResNet Architecture** 
-<img src="https://www.researchgate.net/profile/Paolo-Napoletano/publication/322476121/figure/tbl1/AS:668726449946625@1536448218498/ResNet-18-Architecture.png"
-     alt="ResNet18"
-     style="float: left; margin-right: 10px;" />
-**ResNet-18** 
-<img src="https://iq.opengenus.org/content/images/2020/03/Screenshot-from-2020-03-20-15-49-54.png"
-     alt="ResNet50"
-     style="float: left; margin-right: 10px;" />
-**ResNet-50** 
+     <br>
+*Transformer Architecture*
+<br>
 <br>
 
 
