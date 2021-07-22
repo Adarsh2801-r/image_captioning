@@ -8,6 +8,19 @@ We created a sentence-based image description generator; this project comes unde
 <img src="https://miro.medium.com/max/1200/1*DSRCXsde9_8dvbxq5ktUnw.png"
      alt="Transformer Architecture "
      style="float: left; margin-right: 10px;" />
+**Transformer Architecture** 
+<img src="https://d2l.ai/_images/resnet-block.svg"
+     alt="ResNet Architecture "
+     style="float: left; margin-right: 10px;" />
+**ResNet Architecture** 
+<img src="https://www.researchgate.net/profile/Paolo-Napoletano/publication/322476121/figure/tbl1/AS:668726449946625@1536448218498/ResNet-18-Architecture.png"
+     alt="ResNet18"
+     style="float: left; margin-right: 10px;" />
+**ResNet-18** 
+<img src="https://iq.opengenus.org/content/images/2020/03/Screenshot-from-2020-03-20-15-49-54.png"
+     alt="ResNet50"
+     style="float: left; margin-right: 10px;" />
+**ResNet-50** 
 <br>
 
 
