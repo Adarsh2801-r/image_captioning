@@ -7,6 +7,7 @@ Dataset-https://drive.google.com/drive/u/0/folders/1ysngnEgkyVu1AHaDk34-15YuavSV
 We created a sentence-based image description generator; this project comes under two flourishing domains of deep learning image recognition and natural language processing. First, we generated index-based encoding of the captions present in the dataset our model uses these text encodings to train on. We then used the pre-trained *ResNet* models to extract image embeddings which we used as input to *transformers’* decoder layer, which uses these image embeddings to generate sentences that describe the image. <br>
 <img src="https://miro.medium.com/max/1200/1*DSRCXsde9_8dvbxq5ktUnw.png"
      alt="Transformer Architecture "
+     width="500" height="600"
      style="float: left; margin-right: 10px;" />
 **Transformer Architecture** 
 <img src="https://d2l.ai/_images/resnet-block.svg"
