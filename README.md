@@ -3,7 +3,8 @@ Dataset-https://drive.google.com/drive/u/0/folders/1ysngnEgkyVu1AHaDk34-15YuavSV
 **Model**<br>
 ![model](model.png)
 <br>
-**Introduction** <br>
+>> Generates the top 5 captions for any uploaded image
+<br>
 *Image description generation* or *image captioning* is the process of generating sentences related to a given image. *Image description generation* has a wide range of uses, like image indexing, accessibility for visually impaired people, social networking, search engines and recommendation systems. Image description generation can be considered an end to end seq2seq problem because it deals with the conversion of images (sequence of pixels) to sentences (sequence of words). We have used an encoder-decoder network to generate the captions for the images. In the encoder part, we have used convolutional neural networks (CNNs) to extract the features from the images and the decoder network to generate the captions.<br>
 
 **Workflow followed:**
